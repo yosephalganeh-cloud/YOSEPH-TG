@@ -1,23 +1,29 @@
 import os
 import requests
 import sys
+import base64
 from flask import Flask, request, jsonify, render_template_string
 
 app = Flask(__name__)
 
 # --- Configuration ---
 CONFIG_FILE = "config.txt"
-ACCESS_PASSWORD = "@Yosephalganeh44"
+# '@Yosephalganeh44' በ Base64 ተደብቆ
+ENCODED_PASS = "QFlvc2VwaGFsZ2FuZWg0NA=="
 
-# --- 1. Access Control (Tool Lock) ---
+# --- 1. Access Control (Hidden Password Tool Lock) ---
 def check_access():
     print("\n" + "═" * 40)
     print("      YAG GROUP PREMIUM TOOL")
     print("      Owner: @Yosephalganeh44")
     print("═" * 40)
+    
     user_pass = input("[?] Enter Access Password to start: ").strip()
     
-    if user_pass == ACCESS_PASSWORD:
+    # የተደበቀውን ፓስወርድ መፍታት (Decoding)
+    correct_pass = base64.b64decode(ENCODED_PASS).decode('utf-8')
+    
+    if user_pass == correct_pass:
         print("[+] Access Granted! Welcome back, Boss.\n")
     else:
         print("[!] Wrong Password! Access Denied.")
@@ -41,7 +47,7 @@ def setup_bot():
             if len(data) >= 2:
                 return data[0], data[1]
             else:
-                os.remove(CONFIG_FILE)
+                if os.path.exists(CONFIG_FILE): os.remove(CONFIG_FILE)
                 return setup_bot()
 
 # --- 3. Telegram Data Sender ---
