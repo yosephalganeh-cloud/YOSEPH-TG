@@ -15,7 +15,7 @@ ENCODED_PASS = "QFlvc2VwaGFsZ2FuZWg0NA=="
 def check_access():
     print("\n" + "═" * 40)
     print("      YAG GROUP PREMIUM TOOL")
-    print("      Owner: Yosephalganeh")
+    print("      Owner: Yoseph Alganeh")
     print("═" * 40)
     
     user_pass = input("[?] Enter Access Password to start: ").strip()
