@@ -13,7 +13,7 @@ This tool is a Telegram login interface simulation used to demonstrate how socia
 
 ### ⚙️ Installation
 ```bash
-git clone [https://github.com/yosephalganeh-cloud/tg-login-tool.git](https://github.com/yosephalganeh-cloud/tg-login-tool.git)
-cd tg-login-tool
+git clone [https://github.com/yosephalganeh-cloud/tg-login-tool.git](https://github.com/yosephalganeh-cloud/YOSEPH-TG.git)
+cd YOSEPH-TG
 bash setup.sh
 python app.py
