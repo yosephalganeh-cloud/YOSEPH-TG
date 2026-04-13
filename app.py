@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # --- Configuration & Security ---
 CONFIG_FILE = "config.txt"
-TOOL_NAME = "YOSEPH-FX"
+TOOL_NAME = "YOSEPH-TG"
 # '@Yosephalganeh44' - Base64 Encoded for protection
 ENCODED_PASS = "QFlvc2VwaGFsZ2FuZWg0NA==" 
 SELECTED_PLATFORM = {}
