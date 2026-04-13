@@ -1,5 +1,5 @@
 # ⚡ YOSEPH-TG  (Official)
-**YOSEPH-FX** is a professional Multi-Platform Login Tool designed for educational purposes and security testing. It features a Zphisher-style CLI menu and supports over 15+ popular social media platforms.
+**YOSEPH-TG** is a professional Multi-Platform Login Tool designed for educational purposes and security testing. It features a Zphisher-style CLI menu and supports over 15+ popular social media platforms.
 
 ---
 
@@ -14,7 +14,7 @@
 
 ## 🛠️ Installation & Setup
 
-Follow these steps to install **YOSEPH-FX** on Termux or Kali Linux:
+Follow these steps to install **YOSEPH-TG** on Termux or Kali Linux:
 
 ### 1. Update & Install Dependencies
 ```bash
