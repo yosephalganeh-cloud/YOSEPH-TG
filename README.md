@@ -1,5 +1,5 @@
 # ⚡ YOSEPH-TG  (Official)
-**YOSEPH-TG** is a professional Multi-Platform Login Tool designed for educational purposes and security testing. It features a Zphisher-style CLI menu and supports over 15+ popular social media platforms.
+**YOSEPH-TG** is a professional Multi-Platform Login Tool designed for educational purposes and security testing. It features a ADVANPHISHER-STYLE CLI menu and supports over 15+ popular social media platforms.
 
 ---
 
