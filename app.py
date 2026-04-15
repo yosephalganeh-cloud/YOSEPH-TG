@@ -13,7 +13,7 @@ app = Flask(__name__)
 # CORE CONFIGURATION & SYSTEM IDENTITY
 # ==========================================
 TOOL_NAME = "YOSEPH-TG"
-VERSION = "12.0.1 (BAD ETHIOPIANHACKER)"
+VERSION = "12.0.1 (BAD ETHIOPIAN HACKER)"
 DEVELOPER = "Yoseph Alganeh" #
 CONFIG_FILE = "system_data.json"
 # Access Token: @Yosephalganeh44
