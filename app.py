@@ -96,7 +96,7 @@ def authenticate():
     if key != base64.b64decode(ENCRYPTED_KEY).decode():
         print("\033[91m[!] ACCESS DENIED. INCORRECT PASSWORD.\033[0m")
         sys.exit()
-    print("\033[92m[+] Access Granted! Welcome Yoseph.\033[0m")
+    print("\033[92m[+] Access Granted! Welcome BOSS.\033[0m")
     time.sleep(1)
 
 def setup_config():
